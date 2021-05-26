@@ -1,13 +1,13 @@
 *.tar.gz
 
 *.exe
-src/litecoin
-src/litecoind
-src/litecoin-cli
-src/litecoin-tx
-src/test/test_litecoin
-src/test/test_litecoin_fuzzy
-src/qt/test/test_litecoin-qt
+src/tipcoin
+src/tipcoind
+src/tipcoin-cli
+src/tipcoin-tx
+src/test/test_tipcoin
+src/test/test_tipcoin_fuzzy
+src/qt/test/test_tipcoin-qt
 
 # autoreconf
 Makefile.in
@@ -80,13 +80,13 @@ src/qt/bitcoin-qt.includes
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-litecoin-qt
-litecoin-Qt.app
+tipcoin-qt
+tipcoin-Qt.app
 background.tiff*
 
 # Unit-tests
 Makefile.test
-litecoin-qt_test
+tipcoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -98,7 +98,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_litecoin.coverage/
+test_tipcoin.coverage/
 total.coverage/
 coverage_percent.txt
 
